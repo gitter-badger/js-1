@@ -2,7 +2,6 @@
 
 if( isNaN(n)){ console.log("wrong input"); return "wrong input"} 
 
- 
 
 else { 
     console.log(n.toString())
@@ -22,6 +21,7 @@ else {
 	//acquire number of zeroes
 	for (i = mark; i<mark+(splitted.length-mark-1); i++){multiplier += splitted[i+1]};
 	console.log("multiplier = " + multiplier)
+
     
     result = parseInt(multiplier)+1;
 
