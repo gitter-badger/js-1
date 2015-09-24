@@ -1,21 +1,40 @@
+function revertMoreStrings(words) {
+  
+var strArray = words.split(" ");
+var counter=0;
+  
+for(var s of strArray){
+     strArray[counter]=revertString(s);
+     counter++;
+}
+return strArray.join(" ");
+  
+}  
+
 function revertString(input) {
-  var reversed = "";
-  var array1 = input.split(" ");
-  var array2 = [];
-  for (var i = 0; i < array1.length; i++) {
-  	array2[i] = array1[i].split("").reverse();
+
+var length= input.length;
+var negative = [];
+  for(i=0; i< length; i++){
+    if(input[i] == input[i].toUpperCase()){negative.push(true);}
+    else {negative.push(false);}
   }
-for(var j = 0; j <= array1.length-1; j++){
-  for(var k = 0; k < array2[j].length; k++){
-    console.log(j,k);
-    if(array1[j][k] === array1[j][k].toUpperCase()){ 
-      reversed += array2[j][k].toUpperCase();
-    }
-    else { reversed += array2[j][k].toLowerCase(); }
-  }
-  if(j !== array1.length-1){
-    reversed += " ";
-  }
+
+var output = reverse(input.toLowerCase()).split("");
+
+//make uppercase in output
+
+for(i=0; i< length; i++){
+  if(negative[i]){ output[i] = output[i].toUpperCase();}
 }
-  return reversed;
+
+return (output.join(""));
 }
+
+function reverse(s){
+    return s.split("").reverse().join("");
+}
+
+
+// Some test cases
+console.log(revertMoreStrings("Hello World"));// output : "Olleh Dlrow"
