@@ -15,17 +15,17 @@ function revertString(input) {
 
 var length= input.length;
 var negative = [];
-	for(i=0; i< length; i++){
-		if(input[i] == input[i].toUpperCase()){negative.push(true);}
-		else {negative.push(false);}
-	}
+  for(i=0; i< length; i++){
+    if(input[i] == input[i].toUpperCase()){negative.push(true);}
+    else {negative.push(false);}
+  }
 
 var output = reverse(input.toLowerCase()).split("");
 
 //make uppercase in output
 
 for(i=0; i< length; i++){
-	if(negative[i]){ output[i] = output[i].toUpperCase();}
+  if(negative[i]){ output[i] = output[i].toUpperCase();}
 }
 
 return (output.join(""));
