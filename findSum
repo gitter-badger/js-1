@@ -1,9 +1,0 @@
-/*
-create a function findSum() which can be used in the following way:
-var plus2 = findSum(2);
-plus2(5); => 7
-OR
-findSum(4)(6); => 10
-*/
-
-//I cannot see how to add a readMe???
