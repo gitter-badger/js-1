@@ -27,7 +27,7 @@ http://www.gitguys.com/topics/merging-with-a-conflict-conflicts-and-resolutions/
 https://www.youtube.com/playlist?list=PLfdtiltiRHWFEbt9V04NrbmksLV4Pdf3j
 
 **GitHub help on 'Fork a repo'**
-(https://help.github.com/articles/fork-a-repo/)
+https://help.github.com/articles/fork-a-repo/
 
 # js
 
