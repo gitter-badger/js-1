@@ -25,7 +25,6 @@ http://www.gitguys.com/topics/merging-with-a-conflict-conflicts-and-resolutions/
 
 **Youtube introduction to GitHub (30 minutes)**
 https://www.youtube.com/playlist?list=PLfdtiltiRHWFEbt9V04NrbmksLV4Pdf3j
->>>>>>> e29d7851e7b0efac7c93c50597b32474ef2495f4
 
 **GitHub help on 'Fork a repo'**
 (https://help.github.com/articles/fork-a-repo/)
