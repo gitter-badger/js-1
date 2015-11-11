@@ -5,8 +5,8 @@ Write a function to work out who is owed what when a group of friends all pay di
 
 **Further points:**
 
- *The values should be positive numbers if the person should receive money from the group, negative numbers if they owe money to the group.
- *If value is a decimal, round to two decimal places.
+ * The values should be positive numbers if the person should receive money from the group, negative numbers if they owe money to the group.
+ * If value is a decimal, round to two decimal places.
 
 Example
 
