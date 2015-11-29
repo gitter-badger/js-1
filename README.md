@@ -14,7 +14,7 @@ This repository was created to post javascript files and open issues related to 
  * Click on the green pull request button which is next to the new branch button. Set the "base" to "master" and the "compare" to your new branch name "new-member-x". 
 * **Create a new simple JS problem** titled "new-member-x+1" for the next new member to practice with.
  * Post your simple problem as a new issue:  set the title as "new-member-x+1" and include instructions in the description.
- * Remeber, keep this simple: for new members this is more about getting comfortable with github.
+ * Remember, keep this simple: for new members this is more about getting comfortable with github.
  
 **If there is no issue waiting for you titled "new-member-x" then create an issue titled "new member in need of problem"**
 
