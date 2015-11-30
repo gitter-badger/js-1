@@ -2,7 +2,7 @@ This repository was created to post javascript files and open issues related to 
 
 
 # New Members
-* If you are a new member to this repository, you should have a JS exercise called "new-member-x" waiting for you to solve. Your first step is to **find this problem and reserve it for you to solve**.
+* If you are a new member to this repository, you should have a JS exercise called "new-member-x" waiting for you to solve under issues. Your first step is to **find this problem and reserve it for you to solve**.
  * click on the repository name (js) and then issues on the right hand side. You should be able to find an "issue" called "new-member-x" containing a simple JS exercise.
  * Reserve this issue by commenting on it saying you intend to solve this problem (assuming no one has already done this).
 * **solve the problem locally.**
@@ -14,12 +14,12 @@ This repository was created to post javascript files and open issues related to 
  * Click on the green pull request button which is next to the new branch button. Set the "base" to "master" and the "compare" to your new branch name "new-member-x". 
 * **Create a new simple JS problem** titled "new-member-x+1" for the next new member to practice with.
  * Post your simple problem as a new issue:  set the title as "new-member-x+1" and include instructions in the description.
- * Remeber, keep this simple: for new members this is more about getting comfortable with github.
+ * Remember, keep this simple: for new members this is more about getting comfortable with github.
  
 **If there is no issue waiting for you titled "new-member-x" then create an issue titled "new member in need of problem"**
 
 
-### Here is the general the workflow for this repository:
+### Here is the general workflow for this repository:
 
  - For each new challenge, the author creates a new branch named after the task and creates an issue describing the challenge.
  - If any of the contributors want to take the challenge, a contributor replies to the issue so others won't try to push their solutions at the same time - this 'reserves' them a spot for solving the problem.
