@@ -23,7 +23,7 @@ You can find details for each step here. Look for the step you are having issues
 
 Before the changes are merged make sure there's at least a short discussion about them first.
 
-### Some Resources:
+### Resources:
 **Here's a good read on Git:**
 
 https://github.com/NataliaLKB/learn-git-basics

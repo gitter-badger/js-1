@@ -3,7 +3,7 @@
 # Using this repository
 
 This repository is for becoming familiar with GitHub by completing JavaScript problems.
-There is a process to follow for contributing. The basics are outlined below, and full details/help can be found in [the CONTRIBUTING.md file](CONTRIBUTING.md).
+There is a process to follow for contributing. The basics are outlined below, and full details/help can be found in [the CONTRIBUTING.md file](CONTRIBUTING.md). Be sure to join our chat room on Gitter, we'd love to hear from you!
 
 ## Making your first contribution
 
