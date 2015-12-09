@@ -2,7 +2,7 @@
 
 You can find details for each step here. Look for the step you are having issues on for full instructions. If you still have questions, check out the Gitter channel!
 
-1. **Find** an unsolved problem titled "new-member-x" under [Issues](../../issues), or ask for one by creating a new issue if none exist. If creating a new issue, give it the title "New member in need of a problem".
+1. **Find** an unsolved problem titled "new-member-x" under [Issues](../../issues). If none exist, ask for one by creating a new issue with the title "New member in need of a problem".
 1. **Reserve** the issue by commenting that you intend to solve the problem, or assigning it to yourself.
 1. **Solve** the problem locally.
 * **Create a branch** with a descriptive name (e.g. new-member-x).
