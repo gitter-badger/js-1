@@ -1,5 +1,8 @@
 function subCipher(text) {
-  return text.replace(/([A-Za-z])/g, function(x) {
-    return String.fromCharCode(x.charCodeAt(0) + 1).toUpperCase();
+  return text.toUpperCase().replace(/([A-Z])/g, function(x) {
+    if (x == 'Z')
+      return 'A';
+    else
+      return String.fromCharCode(x.charCodeAt(0) + 1)
   });
 };
