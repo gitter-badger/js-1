@@ -1,3 +1,5 @@
+## Conference Traveler (Problem #31)
+
 Hi there, my name is Scott, and my solution to msachi's toy problem, Conference Traveler (#31), can 
 be found in the conference-traveler.js file within this folder. Conference Traveler (#31) is below:
 
@@ -9,8 +11,8 @@ Each year, Society for Exciting Computer Science Research (SECSR) organizes seve
 
 Write a function conferencePicker that takes in two arguments:
 
-citiesVisited, a list of cities that Lucy has visited before, given as an array of strings.
-citiesOffered, a list of cities that will host SECSR conferences this year, given as an array of strings. citiesOffered will already be ordered in terms of the relevance of the conferences for Lucy's research (from the most to the least relevant).
+* citiesVisited, a list of cities that Lucy has visited before, given as an array of strings.
+* citiesOffered, a list of cities that will host SECSR conferences this year, given as an array of strings. citiesOffered will already be ordered in terms of the relevance of the conferences for Lucy's research (from the most to the least relevant).
 
 The function should return the city that Lucy should visit, as a string.
 
@@ -22,8 +24,10 @@ If all of the offered conferences are hosted in cities that Lucy has visited bef
 
 Example:
 
+```javascript
 citiesVisited = ['Mexico City','Johannesburg','Stockholm','Osaka','Saint Petersburg','London'];
 citiesOffered = ['Stockholm','Paris','Melbourne'];
 
 conferencePicker (citiesVisited, citiesOffered);
 // ---> 'Paris'
+```
