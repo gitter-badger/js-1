@@ -1,7 +1,7 @@
 Hi there, my name is Scott, and my solution to msachi's toy problem, Conference Traveler (#31), can 
 be found in the conference-traveler.js file within this folder. Conference Traveler (#31) is below:
 
-<----------------------------------------------------------------------------------------------------------->
+<------------------------------------------------------------------------------------------------------------------------------->
 
 Lucy loves to travel. Luckily she is a renowned computer scientist and gets to travel to international conferences using her department's budget.
 
@@ -19,6 +19,7 @@ Also note:
 You should allow for the possibility that Lucy hasn't visited any city before.
 SECSR organizes at least two conferences each year.
 If all of the offered conferences are hosted in cities that Lucy has visited before, the function should return 'No worthwhile conferences this year!'
+
 Example:
 
 citiesVisited = ['Mexico City','Johannesburg','Stockholm','Osaka','Saint Petersburg','London'];
