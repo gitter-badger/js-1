@@ -5,21 +5,17 @@ function char_count(str,char){
     if(str.charAt(i)==char){
       count++;
     }
-  }
-  
+  } 
   return count;
 }
 
-
 function countChars(arrayOfStrings, char) {
-
-  occurences = [];
-for(var i=0;i<arrayOfStrings.length;i++){  
-var obj = { elementIndex: i,   
-            counter: char_count(arrayOfStrings[i],char),   
-           };
-           occurences.push(obj);
-}
-
-
+  occurrences = [];
+  for(var i=0;i<arrayOfStrings.length;i++){  
+    var obj = { elementIndex: i,   
+                counter: char_count(arrayOfStrings[i],char),   
+              };
+    occurrences.push(obj);
+  }
+  return occurrences;
 }
